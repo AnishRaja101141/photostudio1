@@ -17,7 +17,7 @@ function sendToWhatsapp() {
     "%0a" +
     "Message :" +
     message +
-    "%a%a";
+    "%0a%0a";
 
   window.open(url, "_blank").focus();
 }
